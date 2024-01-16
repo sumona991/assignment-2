@@ -1,0 +1,718 @@
+*{
+    font-family: 'Mulish', sans-serif;
+
+}
+.img-myo{
+    display: flex;
+    gap: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 80px;
+  }
+ nav ul{
+    display: flex;
+    
+  }
+  
+  nav li{
+   list-style: none;
+   margin-left: 50px;
+   
+   text-align: center;
+   
+   
+
+  }
+  nav li a{
+    text-decoration: none;
+    color:  #626264;
+    font-size: 1rem;
+  }
+
+
+  /* banner section styles */
+
+  .banner-section{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    margin-right: 230px;
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+    
+
+
+  }
+
+
+
+  .banner-box{
+   
+border-radius: 15px ;
+width: 780px;
+/* background-color: transparent; */
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: flex;
+gap: 20px;
+margin-top: 50px;
+padding: 16px;
+
+
+  }
+
+  .where-go{
+    width: 180px;
+height: 52px;
+border-radius: 8px;
+background-color: #FFF;
+  }
+  .when{
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .when img{
+    width: 25%;
+  }
+  .select-type{
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .select-type img{
+    width: 25%;
+  }
+
+  .find-now{
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    gap: 15px;
+
+
+  }
+  .find-now img{
+    width: 15%;
+  }
+
+
+
+  /* Popular tour section start  */
+
+  .popular-tour{
+    display: flex;
+    margin: 100px 130px;
+    gap: 100px;
+  }
+
+  .popular-tour-title{
+    color: #131318;
+
+font-size: 2.8rem;
+font-weight: 800;
+
+
+  }
+
+  .popular-tour-img img{
+    width: 540px;
+height: 550px;
+border-radius: 16px;
+
+  }
+
+  .popular-tour-box{
+    width: 174px;
+
+border-radius: 8px;
+background: #FF5400;
+
+color: white;
+  }
+
+  .popular-tour-box h2{
+    padding: 14px 20px;
+  }
+  .popular-tour-content p,ul{
+    color: #5A5A5D;
+font-size: 1rem;
+ 
+
+  }
+
+  /* chose your destination styles  */
+  .chose-destination-title{
+    color: #131318;
+text-align: center;
+font-size: 2.8rem;
+font-weight: 800;
+
+  }
+
+  /* grid start  */
+  .grid-start{
+    margin-left: 150px;
+  }
+
+  .row-1{
+    display: grid;
+     grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .maldives{
+    background-image: url(Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+
+
+  }
+  .indonesia{
+    background-image: url(Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     
+     height: 450px;
+    color: white;
+    border-radius: 16px;
+
+
+  }
+
+  /* row-2 styles  */
+  .row-2{
+    display: grid;
+     grid-template-rows: 1fr; 
+    grid-template-columns: 2fr 3fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  .srilanka{
+    background-image: url(Rectangle\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+
+  }
+  .america{
+    background-image: url(Rectangle\ 7\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+
+  }
+  .kashmir{
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+  }
+
+  /* row-3 styles  */
+  .row-3{
+    display: grid;
+     grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 100px;
+  }
+  .bangladesh{
+    background-image: url(Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+  }
+
+  .bandarban{
+    background-image: url(Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 450px; 
+    color: #FFF;
+    border-radius: 16px;
+  }
+
+
+
+
+
+
+  /* Why chose Us styles  */
+  .why-chose-content{
+    text-align: center;
+  }
+
+  .why-chose-title{
+    color: #131318;
+font-size: 1.8rem;
+font-weight: 800;
+
+  }
+
+  .description{
+    color: #5A5A5D;
+    font-size: 1rem;
+  }
+
+  .why-chose-div-3{
+    margin:50px 340px;
+  }
+
+  .why-chose-twins{
+    display: flex;
+    gap: 20px;
+  }
+
+  .why-chose-twins-1{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+padding: 20px;
+
+  }
+
+  .why-chose-twins-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 20px;
+
+
+  }
+
+  .why-chose-alone-div{
+    width: 573px;
+    height: 284px;
+
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin-top:20px;
+margin-left: 310px;
+padding: 20px;
+
+  }
+
+  .twins-title{
+    color: #131318;
+font-size: 1.8rem;
+font-weight: 800;
+
+  }
+
+
+  /* deals and discount styles */
+  
+
+  
+  .dd-content{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .dd-title{
+    color: #131318;
+
+font-size:2.8rem;
+font-weight: 800;
+
+  }
+ /* first pic  */
+  .dd-picture-1{
+    background-image: url(Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    margin-left: 300px;
+    
+  }
+
+  .transparent-white-box{
+    width: 500px;
+ height: 300px; 
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+
+margin-left: 550px ;
+position: relative;
+top: 80px;
+padding: 30px;
+
+  }
+  .headings{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .frame-and-text{
+    display: flex;
+    gap: 5px;
+    
+  }
+  /* first Pic End  */
+
+   /* secon pic start  */
+   .dd-picture-2{
+    background-image: url(Group\ 40.png);
+    width: 1170px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+
+   .transparent-white-box-2{
+    width: 500px;
+ height: 300px; 
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+
+ margin-left: 50px ;
+position: relative;
+top: 80px;
+ padding: 30px; 
+
+  }
+  .headings{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .frame-and-text{
+    display: flex;
+    gap: 5px;
+  }
+
+  .see-all-packages{
+    width: 210px;
+
+border-radius: 8px;
+background: #FF5400;
+text-align: center;
+margin-left: 710px;
+margin-top: 80px;
+padding: 10px;
+
+  }
+
+
+
+
+/* simple perfect place section styles  */
+
+.simple-perfect-place{
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+  margin-left: 130px;
+}
+.to-get-lost-title{
+  color: #131318;
+
+font-size: 2.8rem;
+
+font-weight: 800;
+
+}
+.see-more{
+  width: 150px;
+
+  border-radius: 8px;
+  background: #FF5400;
+  
+  color: white;
+  padding: 14px 60px;
+}
+
+.mountain-img-column{
+  background-image: url(Group\ 40089.png);
+  width: 610px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  text-align: center;
+
+
+}
+.mountain-img-title{
+  color: #FFF;
+  
+font-size: 1.5rem;
+
+font-weight: 700;
+position: relative;
+top: 180px;
+left: 10px;
+
+
+}
+.mountain-below-frame{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 230px;
+}
+.mountain-below-frame-1{
+  display: flex;
+}
+.mountain-below-frame-2{
+  display: flex;
+}
+
+.video-line{
+  color: #FFFFFF.30%;
+  position: relative;
+  top: 240px;
+}
+
+
+/* newslettter section  */
+.newsletter{
+  width: 500px;
+
+border: 2px solid #FF5400;
+padding-left: 70px;
+padding-top: 50px;
+}
+.newsletter-img-section{
+  display: flex;
+  margin-left: 130px;
+  margin-top: 100px;
+  gap: 50px;
+}
+.horizontal-line{
+  width: 393px;
+height: 1px;
+background-color: rgba(19, 19, 24, 0.10);
+}
+.btn{
+  width: 393px;
+height: 52px;
+border: 0;
+border-radius: 8px;
+background: #FF5400;
+color: white;
+
+}
+.input-style{
+  width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+padding-left: 20px;
+}
+
+.save-up-70{
+  width: 324px;
+
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+color: white;
+padding: 10px;
+position: relative;
+bottom: 32%;
+left: 48%;
+}
+
+
+/* Footer styles  */
+.footer{
+  width: 100%;
+height: 502px;
+margin-top: 100px;
+background-color: rgba(19, 19, 24, 0.05);
+text-align: center;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-horizontal-line{
+  width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-left: 500px;
+  
+}
+
+
+
+/* Responsive mobile device  */
+
+@media screen and (max-width: 600px ){
+  .nav{
+    width: 50%;
+    margin:0 auto;
+
+  }
+  .banner-section{
+    width: 90%;
+    margin:0 auto;
+
+  }
+  .banner-box{
+    flex-direction: column;
+    width: 90%;
+    padding-left: 50px;
+  }
+  .popular-tour{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .popular-tour-img img{
+    width: 80%;
+  }
+  .row-1{
+    
+    grid-template-columns: 1fr;
+  }
+  .why-chose-twins{
+    flex-direction: column;
+  }
+  .why-chose-alone-div{
+    margin-left: 0 ;
+  }
+  .why-chose-div-3{
+    margin: 0 auto;
+  }
+  .dd-picture-1{
+    margin-left: 0;
+  }
+  .transparent-white-box{
+    margin-left: 5px;
+  }
+  .dd-picture-2{
+    margin-left: 0;
+  }
+  .transparent-white-box-2{
+    margin-left: 5px;
+  }
+  .simple-perfect-place{
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .mountain-img-column{
+    height: 500px;
+    width: 500px;
+    
+  }
+.dd-content{
+  margin-bottom: 0;
+}
+.newsletter-img-section{
+  flex-direction: column;
+  margin-left: 0;
+}
+.grid-start{
+  margin-left: 0;
+}
+.row-2{
+  grid-template-columns: 1fr;
+}
+.row-3{
+  grid-template-columns: 1fr;
+}
+.save-up-70{
+  position: relative;
+  bottom: 60%;
+}
+
+
+}
+
