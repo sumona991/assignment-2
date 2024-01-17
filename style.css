@@ -806,7 +806,9 @@ transform: rotate(-19.628deg);
   width: 335px;
 height: 1px;
 }
-.footer{
+.comment-section{
+  margin-left: 0;
+  padding-left: 0;
   
 }
 
