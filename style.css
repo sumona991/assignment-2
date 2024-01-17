@@ -552,7 +552,7 @@ left: 10px;
 /* newslettter section  */
 .newsletter{
   width: 500px;
-
+border-radius: 16px;
 border: 2px solid #FF5400;
 padding-left: 70px;
 padding-top: 50px;
@@ -637,7 +637,7 @@ margin-left: 500px;
 @media screen and (max-width: 600px ){
   .nav{
     width: 50%;
-    margin:0 auto;
+    margin-left: 0;
 
   }
   .banner-section{
@@ -653,9 +653,12 @@ margin-left: 500px;
   .popular-tour{
     flex-direction: column;
     margin: 0 auto;
+    gap: 0;
   }
   .popular-tour-img img{
-    width: 80%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
   }
   .row-1{
     
@@ -664,17 +667,34 @@ margin-left: 500px;
   .why-chose-twins{
     flex-direction: column;
   }
+  .why-chose-twins-1{
+    width: 90%;
+height: 100%;
+  }
+  .why-chose-twins-2{
+    width: 90%;
+height: 100%;
+  }
   .why-chose-alone-div{
     margin-left: 0 ;
+    width: 90%;
+height: 100%;
   }
   .why-chose-div-3{
     margin: 0 auto;
   }
   .dd-picture-1{
     margin-left: 0;
+    
+    
+    
   }
   .transparent-white-box{
     margin-left: 5px;
+  
+
+   
+    
   }
   .dd-picture-2{
     margin-left: 0;
@@ -695,10 +715,39 @@ margin-left: 500px;
 .dd-content{
   margin-bottom: 0;
 }
+.mountain-img-column{
+  border-radius: 16px;
+  width: 100%;
+ 
+}
+.video-line img{
+  width: 390px;
+}
+.newsletter{
+  width: 450px;
+height: 100%;
+padding-right:20px;
+padding-bottom: 20px;
+}
+
+
 .newsletter-img-section{
   flex-direction: column;
   margin-left: 0;
+  margin-top: 10px;
 }
+.newsletter-img img{
+  width: 100%;
+height: 100%;
+border-radius: 16px;
+}
+.save-up-70{
+  width: 214.023px;
+height: 79.268px;
+transform: rotate(-19.628deg);
+
+}
+
 .grid-start{
   margin-left: 0;
 }
@@ -711,6 +760,17 @@ margin-left: 500px;
 .save-up-70{
   position: relative;
   bottom: 60%;
+}
+.see-all-packages{
+  margin-left: 0;
+}
+.footer-horizontal-line{
+  margin-left: 100px;
+  width: 335px;
+height: 1px;
+}
+.footer{
+  
 }
 
 
